@@ -1,0 +1,19 @@
+# Environment files — NEVER commit
+.env
+.env.local
+.env.production
+*.env
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# Node
+node_modules/
+.next/
+
+# Windows specific
+Thumbs.db
+desktop.ini
